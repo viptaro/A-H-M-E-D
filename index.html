@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Files Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- صفحة تسجيل الدخول -->
+    <div id="login-page">
+        <h1>تسجيل الدخول</h1>
+        <form id="login-form">
+            <input type="text" placeholder="اسم المستخدم" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="button" id="login-btn">دخول</button>
+        </form>
+    </div>
+
+    <!-- صفحة عرض الملفات -->
+    <div id="files-page" style="display: none;">
+        <h1>عرض البيانات</h1>
+        <img src="صورة واتساب بتاريخ 1446-06-22 في 21.04.50_85bc32ef.jpg" alt="الصورة" class="uploaded-image">
+        <div class="files">
+            <p>NAME:AHMED HESHAM AHMED MORSHED</p>
+            <p>AGE:19</p>
+            
+        </div>
+        <button id="back-btn">رجوع</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
